@@ -20,7 +20,8 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-https://s.amsu.ng/XqG5Z3qSPCxN# Twitter - Part I
+https://s.amsu.ng/XqG5Z3qSPCxN# 
+Twitter - Part I
 
 This is a basic twitter app to read your tweets.
 
