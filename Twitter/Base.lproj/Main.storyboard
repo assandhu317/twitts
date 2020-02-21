@@ -86,8 +86,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Tweet" id="9Fk-Ke-TiN">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="tweet:" destination="ect-ol-mQd" id="ydY-hd-IOL"/>
-                                <segue destination="VRp-6T-od1" kind="presentation" id="cdp-di-B1R"/>
+                                <action selector="tweet:" destination="ect-ol-mQd" id="JVX-5l-qH6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -210,6 +209,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Tweet" id="NA8-29-Iho">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="VRp-6T-od1" kind="presentation" id="eMZ-Hb-Soj"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
@@ -261,7 +263,4 @@
         <image name="favor-icon" width="30" height="30"/>
         <image name="retweet-icon" width="30" height="30"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="cdp-di-B1R"/>
-    </inferredMetricsTieBreakers>
 </document>
